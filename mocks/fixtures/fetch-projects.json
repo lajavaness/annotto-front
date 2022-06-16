@@ -1,0 +1,1371 @@
+[
+	{
+		"defaultTags": [],
+		"active": true,
+		"admins": [],
+		"users": [],
+		"tasks": [
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ab4",
+				"value": "RC",
+				"hotkey": "1",
+				"label": "RC",
+				"category": "Niveau1",
+				"updatedAt": "2020-09-22T13:22:47.670Z",
+				"createdAt": "2020-09-22T13:22:47.670Z",
+				"__v": 0,
+				"children": {
+					"name": "Niveau2",
+					"values": [
+						{
+							"parents": ["5f69faa7420b84001bde5ab4"],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ab5",
+							"value": "RA01",
+							"hotkey": "a",
+							"label": "01 Acc",
+							"category": "Niveau2",
+							"updatedAt": "2020-09-22T13:22:47.670Z",
+							"createdAt": "2020-09-22T13:22:47.670Z",
+							"__v": 0
+						},
+						{
+							"parents": ["5f69faa7420b84001bde5ab4"],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ab6",
+							"value": "RA03",
+							"hotkey": "z",
+							"label": "03 Cpt",
+							"category": "Niveau2",
+							"updatedAt": "2020-09-22T13:22:47.671Z",
+							"createdAt": "2020-09-22T13:22:47.671Z",
+							"__v": 0
+						},
+						{
+							"parents": ["5f69faa7420b84001bde5ab4"],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ab7",
+							"value": "RA04",
+							"hotkey": "e",
+							"label": "04 Frn",
+							"category": "Niveau2",
+							"updatedAt": "2020-09-22T13:22:47.671Z",
+							"createdAt": "2020-09-22T13:22:47.671Z",
+							"__v": 0
+						},
+						{
+							"parents": ["5f69faa7420b84001bde5ab4"],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ab8",
+							"value": "RA05",
+							"hotkey": "r",
+							"label": "05 Dep",
+							"category": "Niveau2",
+							"updatedAt": "2020-09-22T13:22:47.671Z",
+							"createdAt": "2020-09-22T13:22:47.671Z",
+							"__v": 0
+						},
+						{
+							"parents": ["5f69faa7420b84001bde5ab4"],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ab9",
+							"value": "RA06",
+							"hotkey": "t",
+							"label": "06 Itv",
+							"category": "Niveau2",
+							"updatedAt": "2020-09-22T13:22:47.671Z",
+							"createdAt": "2020-09-22T13:22:47.671Z",
+							"__v": 0
+						},
+						{
+							"parents": ["5f69faa7420b84001bde5ab4"],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5aba",
+							"value": "RA07",
+							"hotkey": "y",
+							"label": "07 Lky",
+							"category": "Niveau2",
+							"updatedAt": "2020-09-22T13:22:47.672Z",
+							"createdAt": "2020-09-22T13:22:47.672Z",
+							"__v": 0
+						},
+						{
+							"parents": ["5f69faa7420b84001bde5ab4"],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5abb",
+							"value": "RA08",
+							"hotkey": "u",
+							"label": "08 Qual",
+							"category": "Niveau2",
+							"updatedAt": "2020-09-22T13:22:47.672Z",
+							"createdAt": "2020-09-22T13:22:47.672Z",
+							"__v": 0
+						},
+						{
+							"parents": ["5f69faa7420b84001bde5ab4"],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5abc",
+							"value": "RA10",
+							"hotkey": "i",
+							"label": "10 Rac",
+							"category": "Niveau2",
+							"updatedAt": "2020-09-22T13:22:47.672Z",
+							"createdAt": "2020-09-22T13:22:47.672Z",
+							"__v": 0
+						},
+						{
+							"parents": ["5f69faa7420b84001bde5ab4"],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5abd",
+							"value": "RA11",
+							"hotkey": "o",
+							"label": "11 Rlv",
+							"category": "Niveau2",
+							"updatedAt": "2020-09-22T13:22:47.672Z",
+							"createdAt": "2020-09-22T13:22:47.672Z",
+							"__v": 0
+						}
+					]
+				}
+			},
+			{
+				"parents": ["5f69faa7420b84001bde5ab4"],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ab5",
+				"value": "RA01",
+				"hotkey": "a",
+				"label": "01 Acc",
+				"category": "Niveau2",
+				"updatedAt": "2020-09-22T13:22:47.670Z",
+				"createdAt": "2020-09-22T13:22:47.670Z",
+				"__v": 0
+			},
+			{
+				"parents": ["5f69faa7420b84001bde5ab4"],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ab6",
+				"value": "RA03",
+				"hotkey": "z",
+				"label": "03 Cpt",
+				"category": "Niveau2",
+				"updatedAt": "2020-09-22T13:22:47.671Z",
+				"createdAt": "2020-09-22T13:22:47.671Z",
+				"__v": 0
+			},
+			{
+				"parents": ["5f69faa7420b84001bde5ab4"],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ab7",
+				"value": "RA04",
+				"hotkey": "e",
+				"label": "04 Frn",
+				"category": "Niveau2",
+				"updatedAt": "2020-09-22T13:22:47.671Z",
+				"createdAt": "2020-09-22T13:22:47.671Z",
+				"__v": 0
+			},
+			{
+				"parents": ["5f69faa7420b84001bde5ab4"],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ab8",
+				"value": "RA05",
+				"hotkey": "r",
+				"label": "05 Dep",
+				"category": "Niveau2",
+				"updatedAt": "2020-09-22T13:22:47.671Z",
+				"createdAt": "2020-09-22T13:22:47.671Z",
+				"__v": 0
+			},
+			{
+				"parents": ["5f69faa7420b84001bde5ab4"],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ab9",
+				"value": "RA06",
+				"hotkey": "t",
+				"label": "06 Itv",
+				"category": "Niveau2",
+				"updatedAt": "2020-09-22T13:22:47.671Z",
+				"createdAt": "2020-09-22T13:22:47.671Z",
+				"__v": 0
+			},
+			{
+				"parents": ["5f69faa7420b84001bde5ab4"],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5aba",
+				"value": "RA07",
+				"hotkey": "y",
+				"label": "07 Lky",
+				"category": "Niveau2",
+				"updatedAt": "2020-09-22T13:22:47.672Z",
+				"createdAt": "2020-09-22T13:22:47.672Z",
+				"__v": 0
+			},
+			{
+				"parents": ["5f69faa7420b84001bde5ab4"],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5abb",
+				"value": "RA08",
+				"hotkey": "u",
+				"label": "08 Qual",
+				"category": "Niveau2",
+				"updatedAt": "2020-09-22T13:22:47.672Z",
+				"createdAt": "2020-09-22T13:22:47.672Z",
+				"__v": 0
+			},
+			{
+				"parents": ["5f69faa7420b84001bde5ab4"],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5abc",
+				"value": "RA10",
+				"hotkey": "i",
+				"label": "10 Rac",
+				"category": "Niveau2",
+				"updatedAt": "2020-09-22T13:22:47.672Z",
+				"createdAt": "2020-09-22T13:22:47.672Z",
+				"__v": 0
+			},
+			{
+				"parents": ["5f69faa7420b84001bde5ab4"],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5abd",
+				"value": "RA11",
+				"hotkey": "o",
+				"label": "11 Rlv",
+				"category": "Niveau2",
+				"updatedAt": "2020-09-22T13:22:47.672Z",
+				"createdAt": "2020-09-22T13:22:47.672Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5abe",
+				"value": "COM",
+				"hotkey": "2",
+				"label": "COM",
+				"category": "Niveau1",
+				"updatedAt": "2020-09-22T13:22:47.672Z",
+				"createdAt": "2020-09-22T13:22:47.672Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5abf",
+				"value": "CORPO",
+				"hotkey": "3",
+				"label": "Corpo",
+				"category": "Niveau1",
+				"updatedAt": "2020-09-22T13:22:47.673Z",
+				"createdAt": "2020-09-22T13:22:47.673Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ac0",
+				"value": "AGGRESSIVE",
+				"hotkey": "4",
+				"label": "Aggr",
+				"category": "Niveau1",
+				"updatedAt": "2020-09-22T13:22:47.673Z",
+				"createdAt": "2020-09-22T13:22:47.673Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ac1",
+				"value": "PASREPONSE",
+				"hotkey": "5",
+				"label": "Pos/Norep",
+				"category": "Niveau1",
+				"updatedAt": "2020-09-22T13:22:47.673Z",
+				"createdAt": "2020-09-22T13:22:47.673Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ac2",
+				"value": "NEGNORESP",
+				"hotkey": "6",
+				"label": "Neg/Norep",
+				"category": "Niveau1",
+				"updatedAt": "2020-09-22T13:22:47.673Z",
+				"createdAt": "2020-09-22T13:22:47.673Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ac3",
+				"value": "AUTRE",
+				"hotkey": "8",
+				"label": "Autre",
+				"category": "Niveau1",
+				"updatedAt": "2020-09-22T13:22:47.673Z",
+				"createdAt": "2020-09-22T13:22:47.673Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f69faa7420b84001bde5ac4",
+				"value": "SUPPRIMER",
+				"hotkey": "9",
+				"label": "Suppr",
+				"category": "Niveau1",
+				"updatedAt": "2020-09-22T13:22:47.673Z",
+				"createdAt": "2020-09-22T13:22:47.673Z",
+				"__v": 0
+			}
+		],
+		"highlights": [],
+		"_id": "5f69faa7420b84001bde5ad6",
+		"name": "DEMO: Text classification",
+		"type": "text",
+		"description": "demo-enedis",
+		"updatedAt": "2020-09-22T15:42:43.031Z",
+		"createdAt": "2020-09-22T13:22:47.697Z",
+		"__v": 0,
+		"itemCount": 30,
+		"stats": {
+			"Users": 0,
+			"Items": 31,
+			"Progress": 5,
+			"Velocity": 10,
+			"Remaining time": "2020-10-14T16:39:22.646Z",
+			"Remaining work": 1,
+			"Notes": 0,
+			"Update": "2020-10-14T16:39:22.646Z"
+		},
+		"spec": {
+			"tasks": [
+				{
+					"name": "Niveau1",
+					"values": [
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ab4",
+							"value": "RC",
+							"hotkey": "1",
+							"label": "RC",
+							"category": "Niveau1",
+							"updatedAt": "2020-09-22T13:22:47.670Z",
+							"createdAt": "2020-09-22T13:22:47.670Z",
+							"__v": 0,
+							"children": {
+								"name": "Niveau2",
+								"values": [
+									{
+										"parents": ["5f69faa7420b84001bde5ab4"],
+										"type": "classifications",
+										"_id": "5f69faa7420b84001bde5ab5",
+										"value": "RA01",
+										"hotkey": "a",
+										"label": "01 Acc",
+										"category": "Niveau2",
+										"updatedAt": "2020-09-22T13:22:47.670Z",
+										"createdAt": "2020-09-22T13:22:47.670Z",
+										"__v": 0
+									},
+									{
+										"parents": ["5f69faa7420b84001bde5ab4"],
+										"type": "classifications",
+										"_id": "5f69faa7420b84001bde5ab6",
+										"value": "RA03",
+										"hotkey": "z",
+										"label": "03 Cpt",
+										"category": "Niveau2",
+										"updatedAt": "2020-09-22T13:22:47.671Z",
+										"createdAt": "2020-09-22T13:22:47.671Z",
+										"__v": 0
+									},
+									{
+										"parents": ["5f69faa7420b84001bde5ab4"],
+										"type": "classifications",
+										"_id": "5f69faa7420b84001bde5ab7",
+										"value": "RA04",
+										"hotkey": "e",
+										"label": "04 Frn",
+										"category": "Niveau2",
+										"updatedAt": "2020-09-22T13:22:47.671Z",
+										"createdAt": "2020-09-22T13:22:47.671Z",
+										"__v": 0
+									},
+									{
+										"parents": ["5f69faa7420b84001bde5ab4"],
+										"type": "classifications",
+										"_id": "5f69faa7420b84001bde5ab8",
+										"value": "RA05",
+										"hotkey": "r",
+										"label": "05 Dep",
+										"category": "Niveau2",
+										"updatedAt": "2020-09-22T13:22:47.671Z",
+										"createdAt": "2020-09-22T13:22:47.671Z",
+										"__v": 0
+									},
+									{
+										"parents": ["5f69faa7420b84001bde5ab4"],
+										"type": "classifications",
+										"_id": "5f69faa7420b84001bde5ab9",
+										"value": "RA06",
+										"hotkey": "t",
+										"label": "06 Itv",
+										"category": "Niveau2",
+										"updatedAt": "2020-09-22T13:22:47.671Z",
+										"createdAt": "2020-09-22T13:22:47.671Z",
+										"__v": 0
+									},
+									{
+										"parents": ["5f69faa7420b84001bde5ab4"],
+										"type": "classifications",
+										"_id": "5f69faa7420b84001bde5aba",
+										"value": "RA07",
+										"hotkey": "y",
+										"label": "07 Lky",
+										"category": "Niveau2",
+										"updatedAt": "2020-09-22T13:22:47.672Z",
+										"createdAt": "2020-09-22T13:22:47.672Z",
+										"__v": 0
+									},
+									{
+										"parents": ["5f69faa7420b84001bde5ab4"],
+										"type": "classifications",
+										"_id": "5f69faa7420b84001bde5abb",
+										"value": "RA08",
+										"hotkey": "u",
+										"label": "08 Qual",
+										"category": "Niveau2",
+										"updatedAt": "2020-09-22T13:22:47.672Z",
+										"createdAt": "2020-09-22T13:22:47.672Z",
+										"__v": 0
+									},
+									{
+										"parents": ["5f69faa7420b84001bde5ab4"],
+										"type": "classifications",
+										"_id": "5f69faa7420b84001bde5abc",
+										"value": "RA10",
+										"hotkey": "i",
+										"label": "10 Rac",
+										"category": "Niveau2",
+										"updatedAt": "2020-09-22T13:22:47.672Z",
+										"createdAt": "2020-09-22T13:22:47.672Z",
+										"__v": 0
+									},
+									{
+										"parents": ["5f69faa7420b84001bde5ab4"],
+										"type": "classifications",
+										"_id": "5f69faa7420b84001bde5abd",
+										"value": "RA11",
+										"hotkey": "o",
+										"label": "11 Rlv",
+										"category": "Niveau2",
+										"updatedAt": "2020-09-22T13:22:47.672Z",
+										"createdAt": "2020-09-22T13:22:47.672Z",
+										"__v": 0
+									}
+								]
+							}
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5abe",
+							"value": "COM",
+							"hotkey": "2",
+							"label": "COM",
+							"category": "Niveau1",
+							"updatedAt": "2020-09-22T13:22:47.672Z",
+							"createdAt": "2020-09-22T13:22:47.672Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5abf",
+							"value": "CORPO",
+							"hotkey": "3",
+							"label": "Corpo",
+							"category": "Niveau1",
+							"updatedAt": "2020-09-22T13:22:47.673Z",
+							"createdAt": "2020-09-22T13:22:47.673Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ac0",
+							"value": "AGGRESSIVE",
+							"hotkey": "4",
+							"label": "Aggr",
+							"category": "Niveau1",
+							"updatedAt": "2020-09-22T13:22:47.673Z",
+							"createdAt": "2020-09-22T13:22:47.673Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ac1",
+							"value": "PASREPONSE",
+							"hotkey": "5",
+							"label": "Pos/Norep",
+							"category": "Niveau1",
+							"updatedAt": "2020-09-22T13:22:47.673Z",
+							"createdAt": "2020-09-22T13:22:47.673Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ac2",
+							"value": "NEGNORESP",
+							"hotkey": "6",
+							"label": "Neg/Norep",
+							"category": "Niveau1",
+							"updatedAt": "2020-09-22T13:22:47.673Z",
+							"createdAt": "2020-09-22T13:22:47.673Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ac3",
+							"value": "AUTRE",
+							"hotkey": "8",
+							"label": "Autre",
+							"category": "Niveau1",
+							"updatedAt": "2020-09-22T13:22:47.673Z",
+							"createdAt": "2020-09-22T13:22:47.673Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f69faa7420b84001bde5ac4",
+							"value": "SUPPRIMER",
+							"hotkey": "9",
+							"label": "Suppr",
+							"category": "Niveau1",
+							"updatedAt": "2020-09-22T13:22:47.673Z",
+							"createdAt": "2020-09-22T13:22:47.673Z",
+							"__v": 0
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"defaultTags": [],
+		"active": true,
+		"admins": [],
+		"users": [],
+		"tasks": [
+			{
+				"parents": [],
+				"type": "ner",
+				"_id": "5f61cec4d15130001ba607f6",
+				"value": "name",
+				"hotkey": "n",
+				"label": "Name",
+				"category": "Entities",
+				"updatedAt": "2020-09-16T08:37:24.251Z",
+				"createdAt": "2020-09-16T08:37:24.251Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "ner",
+				"_id": "5f61cec4d15130001ba607f7",
+				"value": "skill",
+				"hotkey": "c",
+				"label": "Skill",
+				"category": "Entities",
+				"updatedAt": "2020-09-16T08:37:24.251Z",
+				"createdAt": "2020-09-16T08:37:24.251Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "ner",
+				"_id": "5f61cec4d15130001ba607f8",
+				"value": "formation",
+				"hotkey": "f",
+				"label": "Formation",
+				"category": "Entities",
+				"updatedAt": "2020-09-16T08:37:24.251Z",
+				"createdAt": "2020-09-16T08:37:24.251Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "ner",
+				"_id": "5f61cec4d15130001ba607f9",
+				"value": "Exp",
+				"hotkey": "e",
+				"label": "Experience",
+				"category": "Entities",
+				"updatedAt": "2020-09-16T08:37:24.251Z",
+				"createdAt": "2020-09-16T08:37:24.251Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "ner",
+				"_id": "5f61cec4d15130001ba607fa",
+				"value": "ignore",
+				"hotkey": "i",
+				"label": "Tag 1",
+				"category": "My Classification",
+				"updatedAt": "2020-09-16T08:37:24.251Z",
+				"createdAt": "2020-09-16T08:37:24.251Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "ner",
+				"_id": "5f61cec4d15130001ba607fb",
+				"value": "not-sure",
+				"hotkey": "a",
+				"label": "Tag 2",
+				"category": "My Classification",
+				"updatedAt": "2020-09-16T08:37:24.252Z",
+				"createdAt": "2020-09-16T08:37:24.252Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "ner",
+				"_id": "5f61cec4d15130001ba607fc",
+				"value": "weird",
+				"hotkey": "w",
+				"label": "Tag 3",
+				"category": "My Classification",
+				"updatedAt": "2020-09-16T08:37:24.252Z",
+				"createdAt": "2020-09-16T08:37:24.252Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "ner",
+				"_id": "5f61cec4d15130001ba607fd",
+				"value": "no-box",
+				"hotkey": "-",
+				"label": "Tag 4",
+				"category": "My Classification",
+				"updatedAt": "2020-09-16T08:37:24.252Z",
+				"createdAt": "2020-09-16T08:37:24.252Z",
+				"__v": 0
+			}
+		],
+		"highlights": [],
+		"_id": "5f61cec4d15130001ba60806",
+		"emails": [],
+		"name": "DEMO: Ner cassification",
+		"type": "text",
+		"description": "Projet de demo",
+		"updatedAt": "2020-09-22T08:02:20.424Z",
+		"createdAt": "2020-09-16T08:37:24.263Z",
+		"__v": 1,
+		"itemCount": 5,
+		"stats": {
+			"Users": 4,
+			"Items": 1,
+			"Progress": 59,
+			"Velocity": 30,
+			"Remaining time": "2020-10-14T16:39:22.646Z",
+			"Remaining work": 1,
+			"Notes": 4,
+			"Update": "2020-10-14T16:39:22.646Z"
+		},
+		"spec": {
+			"ner": [
+				{
+					"name": "Entities",
+					"values": [
+						{
+							"parents": [],
+							"type": "ner",
+							"_id": "5f61cec4d15130001ba607f6",
+							"value": "name",
+							"hotkey": "n",
+							"label": "Name",
+							"category": "Entities",
+							"updatedAt": "2020-09-16T08:37:24.251Z",
+							"createdAt": "2020-09-16T08:37:24.251Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "ner",
+							"_id": "5f61cec4d15130001ba607f7",
+							"value": "skill",
+							"hotkey": "c",
+							"label": "Skill",
+							"category": "Entities",
+							"updatedAt": "2020-09-16T08:37:24.251Z",
+							"createdAt": "2020-09-16T08:37:24.251Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "ner",
+							"_id": "5f61cec4d15130001ba607f8",
+							"value": "formation",
+							"hotkey": "f",
+							"label": "Formation",
+							"category": "Entities",
+							"updatedAt": "2020-09-16T08:37:24.251Z",
+							"createdAt": "2020-09-16T08:37:24.251Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "ner",
+							"_id": "5f61cec4d15130001ba607f9",
+							"value": "Exp",
+							"hotkey": "e",
+							"label": "Experience",
+							"category": "Entities",
+							"updatedAt": "2020-09-16T08:37:24.251Z",
+							"createdAt": "2020-09-16T08:37:24.251Z",
+							"__v": 0
+						}
+					]
+				},
+				{
+					"name": "My Classification",
+					"values": [
+						{
+							"parents": [],
+							"type": "ner",
+							"_id": "5f61cec4d15130001ba607fa",
+							"value": "ignore",
+							"hotkey": "i",
+							"label": "Tag 1",
+							"category": "My Classification",
+							"updatedAt": "2020-09-16T08:37:24.251Z",
+							"createdAt": "2020-09-16T08:37:24.251Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "ner",
+							"_id": "5f61cec4d15130001ba607fb",
+							"value": "not-sure",
+							"hotkey": "a",
+							"label": "Tag 2",
+							"category": "My Classification",
+							"updatedAt": "2020-09-16T08:37:24.252Z",
+							"createdAt": "2020-09-16T08:37:24.252Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "ner",
+							"_id": "5f61cec4d15130001ba607fc",
+							"value": "weird",
+							"hotkey": "w",
+							"label": "Tag 3",
+							"category": "My Classification",
+							"updatedAt": "2020-09-16T08:37:24.252Z",
+							"createdAt": "2020-09-16T08:37:24.252Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "ner",
+							"_id": "5f61cec4d15130001ba607fd",
+							"value": "no-box",
+							"hotkey": "-",
+							"label": "Tag 4",
+							"category": "My Classification",
+							"updatedAt": "2020-09-16T08:37:24.252Z",
+							"createdAt": "2020-09-16T08:37:24.252Z",
+							"__v": 0
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"defaultTags": [],
+		"active": true,
+		"admins": [],
+		"users": [],
+		"tasks": [
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df313",
+				"value": "pni",
+				"hotkey": "1",
+				"label": "PNI",
+				"category": "type",
+				"updatedAt": "2020-09-15T15:23:06.953Z",
+				"createdAt": "2020-09-15T15:23:06.953Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df314",
+				"value": "passeport",
+				"hotkey": "c",
+				"label": "Passporte",
+				"category": "type",
+				"updatedAt": "2020-09-15T15:23:06.954Z",
+				"createdAt": "2020-09-15T15:23:06.954Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df315",
+				"value": "kbis",
+				"hotkey": "3",
+				"label": "Kbis",
+				"category": "type",
+				"updatedAt": "2020-09-15T15:23:06.954Z",
+				"createdAt": "2020-09-15T15:23:06.954Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df316",
+				"value": "justif",
+				"hotkey": "4",
+				"label": "Justif",
+				"category": "type",
+				"updatedAt": "2020-09-15T15:23:06.954Z",
+				"createdAt": "2020-09-15T15:23:06.954Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df317",
+				"value": "avis",
+				"hotkey": "5",
+				"label": "Avis Impôt",
+				"category": "type",
+				"updatedAt": "2020-09-15T15:23:06.954Z",
+				"createdAt": "2020-09-15T15:23:06.954Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df318",
+				"value": "livret",
+				"hotkey": "6",
+				"label": "Livret Familial",
+				"category": "type",
+				"updatedAt": "2020-09-15T15:23:06.955Z",
+				"createdAt": "2020-09-15T15:23:06.955Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df319",
+				"value": "autre",
+				"hotkey": "7",
+				"label": "Autre",
+				"category": "type",
+				"updatedAt": "2020-09-15T15:23:06.957Z",
+				"createdAt": "2020-09-15T15:23:06.957Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df31a",
+				"value": "L",
+				"hotkey": "l",
+				"label": "Oui",
+				"category": "lisible",
+				"updatedAt": "2020-09-15T15:23:06.957Z",
+				"createdAt": "2020-09-15T15:23:06.957Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df31b",
+				"value": "N",
+				"hotkey": "n",
+				"label": "Non",
+				"category": "lisible",
+				"updatedAt": "2020-09-15T15:23:06.957Z",
+				"createdAt": "2020-09-15T15:23:06.957Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df31c",
+				"value": "_",
+				"hotkey": "_",
+				"label": "Autre",
+				"category": "lisible",
+				"updatedAt": "2020-09-15T15:23:06.958Z",
+				"createdAt": "2020-09-15T15:23:06.958Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df31d",
+				"value": "H",
+				"hotkey": "h",
+				"label": "Homme",
+				"category": "sexe",
+				"updatedAt": "2020-09-15T15:23:06.958Z",
+				"createdAt": "2020-09-15T15:23:06.958Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df31e",
+				"value": "F",
+				"hotkey": "f",
+				"label": "Femme",
+				"category": "sexe",
+				"updatedAt": "2020-09-15T15:23:06.958Z",
+				"createdAt": "2020-09-15T15:23:06.958Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "classifications",
+				"_id": "5f60dc5ad15130001b9df31f",
+				"value": "-",
+				"hotkey": "-",
+				"label": "Autre",
+				"category": "sexe",
+				"updatedAt": "2020-09-15T15:23:06.959Z",
+				"createdAt": "2020-09-15T15:23:06.959Z",
+				"__v": 0
+			}
+		],
+		"highlights": [],
+		"_id": "5f60dc5ad15130001b9df32d",
+		"emails": [],
+		"name": "DEMO: Image cassification",
+		"type": "image",
+		"description": "Project LCL",
+		"updatedAt": "2020-09-22T08:02:15.536Z",
+		"createdAt": "2020-09-15T15:23:06.981Z",
+		"__v": 1,
+		"itemCount": 6,
+		"spec": {
+			"tasks": [
+				{
+					"name": "type",
+					"values": [
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df313",
+							"value": "pni",
+							"hotkey": "1",
+							"label": "PNI",
+							"category": "type",
+							"updatedAt": "2020-09-15T15:23:06.953Z",
+							"createdAt": "2020-09-15T15:23:06.953Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df314",
+							"value": "passeport",
+							"hotkey": "c",
+							"label": "Passporte",
+							"category": "type",
+							"updatedAt": "2020-09-15T15:23:06.954Z",
+							"createdAt": "2020-09-15T15:23:06.954Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df315",
+							"value": "kbis",
+							"hotkey": "3",
+							"label": "Kbis",
+							"category": "type",
+							"updatedAt": "2020-09-15T15:23:06.954Z",
+							"createdAt": "2020-09-15T15:23:06.954Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df316",
+							"value": "justif",
+							"hotkey": "4",
+							"label": "Justif",
+							"category": "type",
+							"updatedAt": "2020-09-15T15:23:06.954Z",
+							"createdAt": "2020-09-15T15:23:06.954Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df317",
+							"value": "avis",
+							"hotkey": "5",
+							"label": "Avis Impôt",
+							"category": "type",
+							"updatedAt": "2020-09-15T15:23:06.954Z",
+							"createdAt": "2020-09-15T15:23:06.954Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df318",
+							"value": "livret",
+							"hotkey": "6",
+							"label": "Livret Familial",
+							"category": "type",
+							"updatedAt": "2020-09-15T15:23:06.955Z",
+							"createdAt": "2020-09-15T15:23:06.955Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df319",
+							"value": "autre",
+							"hotkey": "7",
+							"label": "Autre",
+							"category": "type",
+							"updatedAt": "2020-09-15T15:23:06.957Z",
+							"createdAt": "2020-09-15T15:23:06.957Z",
+							"__v": 0
+						}
+					]
+				},
+				{
+					"name": "lisible",
+					"values": [
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df31a",
+							"value": "L",
+							"hotkey": "l",
+							"label": "Oui",
+							"category": "lisible",
+							"updatedAt": "2020-09-15T15:23:06.957Z",
+							"createdAt": "2020-09-15T15:23:06.957Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df31b",
+							"value": "N",
+							"hotkey": "n",
+							"label": "Non",
+							"category": "lisible",
+							"updatedAt": "2020-09-15T15:23:06.957Z",
+							"createdAt": "2020-09-15T15:23:06.957Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df31c",
+							"value": "_",
+							"hotkey": "_",
+							"label": "Autre",
+							"category": "lisible",
+							"updatedAt": "2020-09-15T15:23:06.958Z",
+							"createdAt": "2020-09-15T15:23:06.958Z",
+							"__v": 0
+						}
+					]
+				},
+				{
+					"name": "sexe",
+					"values": [
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df31d",
+							"value": "H",
+							"hotkey": "h",
+							"label": "Homme",
+							"category": "sexe",
+							"updatedAt": "2020-09-15T15:23:06.958Z",
+							"createdAt": "2020-09-15T15:23:06.958Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df31e",
+							"value": "F",
+							"hotkey": "f",
+							"label": "Femme",
+							"category": "sexe",
+							"updatedAt": "2020-09-15T15:23:06.958Z",
+							"createdAt": "2020-09-15T15:23:06.958Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "classifications",
+							"_id": "5f60dc5ad15130001b9df31f",
+							"value": "-",
+							"hotkey": "-",
+							"label": "Autre",
+							"category": "sexe",
+							"updatedAt": "2020-09-15T15:23:06.959Z",
+							"createdAt": "2020-09-15T15:23:06.959Z",
+							"__v": 0
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"defaultTags": [],
+		"active": true,
+		"admins": [],
+		"users": [],
+		"tasks": [
+			{
+				"parents": [],
+				"type": "zone",
+				"_id": "5f61ebcdd15130001ba9a1fb",
+				"value": "bbox_name",
+				"hotkey": "n",
+				"label": "Name",
+				"category": "bboxes",
+				"updatedAt": "2020-09-16T10:41:17.017Z",
+				"createdAt": "2020-09-16T10:41:17.017Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "zone",
+				"_id": "5f61ebcdd15130001ba9a1fc",
+				"value": "bbox_skill",
+				"hotkey": "c",
+				"label": "Skill",
+				"category": "bboxes",
+				"updatedAt": "2020-09-16T10:41:17.017Z",
+				"createdAt": "2020-09-16T10:41:17.017Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "zone",
+				"_id": "5f61ebcdd15130001ba9a1fd",
+				"value": "bbox_formation",
+				"hotkey": "f",
+				"label": "Formation",
+				"category": "bboxes",
+				"updatedAt": "2020-09-16T10:41:17.017Z",
+				"createdAt": "2020-09-16T10:41:17.017Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "zone",
+				"_id": "5f61ebcdd15130001ba9a1fe",
+				"value": "bbox_Exp",
+				"hotkey": "e",
+				"label": "Experience",
+				"category": "bboxes",
+				"updatedAt": "2020-09-16T10:41:17.018Z",
+				"createdAt": "2020-09-16T10:41:17.018Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "zone",
+				"_id": "5f61ebcdd15130001ba9a1ff",
+				"value": "ignore",
+				"hotkey": "i",
+				"label": "Ignore this example",
+				"category": "Meta",
+				"updatedAt": "2020-09-16T10:41:17.018Z",
+				"createdAt": "2020-09-16T10:41:17.018Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "zone",
+				"_id": "5f61ebcdd15130001ba9a200",
+				"value": "not-sure",
+				"hotkey": "a",
+				"label": "Not sure",
+				"category": "Meta",
+				"updatedAt": "2020-09-16T10:41:17.018Z",
+				"createdAt": "2020-09-16T10:41:17.018Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "zone",
+				"_id": "5f61ebcdd15130001ba9a201",
+				"value": "weird",
+				"hotkey": "w",
+				"label": "This example is weird",
+				"category": "Meta",
+				"updatedAt": "2020-09-16T10:41:17.018Z",
+				"createdAt": "2020-09-16T10:41:17.018Z",
+				"__v": 0
+			},
+			{
+				"parents": [],
+				"type": "zone",
+				"_id": "5f61ebcdd15130001ba9a202",
+				"value": "no-box",
+				"hotkey": "-",
+				"label": "No box",
+				"category": "Meta",
+				"updatedAt": "2020-09-16T10:41:17.018Z",
+				"createdAt": "2020-09-16T10:41:17.018Z",
+				"__v": 0
+			}
+		],
+		"highlights": [],
+		"_id": "5f61ebcdd15130001ba9a20b",
+		"emails": [],
+		"name": "DEMO: CV - Extraction",
+		"type": "image",
+		"description": "Demo de projet",
+		"updatedAt": "2020-09-22T07:58:39.952Z",
+		"createdAt": "2020-09-16T10:41:17.041Z",
+		"__v": 1,
+		"itemCount": 3,
+		"spec": {
+			"zone": [
+				{
+					"name": "bboxes",
+					"values": [
+						{
+							"parents": [],
+							"type": "zone",
+							"_id": "5f61ebcdd15130001ba9a1fb",
+							"value": "bbox_name",
+							"hotkey": "n",
+							"label": "Name",
+							"category": "bboxes",
+							"updatedAt": "2020-09-16T10:41:17.017Z",
+							"createdAt": "2020-09-16T10:41:17.017Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "zone",
+							"_id": "5f61ebcdd15130001ba9a1fc",
+							"value": "bbox_skill",
+							"hotkey": "c",
+							"label": "Skill",
+							"category": "bboxes",
+							"updatedAt": "2020-09-16T10:41:17.017Z",
+							"createdAt": "2020-09-16T10:41:17.017Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "zone",
+							"_id": "5f61ebcdd15130001ba9a1fd",
+							"value": "bbox_formation",
+							"hotkey": "f",
+							"label": "Formation",
+							"category": "bboxes",
+							"updatedAt": "2020-09-16T10:41:17.017Z",
+							"createdAt": "2020-09-16T10:41:17.017Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "zone",
+							"_id": "5f61ebcdd15130001ba9a1fe",
+							"value": "bbox_Exp",
+							"hotkey": "e",
+							"label": "Experience",
+							"category": "bboxes",
+							"updatedAt": "2020-09-16T10:41:17.018Z",
+							"createdAt": "2020-09-16T10:41:17.018Z",
+							"__v": 0
+						}
+					]
+				},
+				{
+					"name": "Meta",
+					"values": [
+						{
+							"parents": [],
+							"type": "zone",
+							"_id": "5f61ebcdd15130001ba9a1ff",
+							"value": "ignore",
+							"hotkey": "i",
+							"label": "Ignore this example",
+							"category": "Meta",
+							"updatedAt": "2020-09-16T10:41:17.018Z",
+							"createdAt": "2020-09-16T10:41:17.018Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "zone",
+							"_id": "5f61ebcdd15130001ba9a200",
+							"value": "not-sure",
+							"hotkey": "a",
+							"label": "Not sure",
+							"category": "Meta",
+							"updatedAt": "2020-09-16T10:41:17.018Z",
+							"createdAt": "2020-09-16T10:41:17.018Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "zone",
+							"_id": "5f61ebcdd15130001ba9a201",
+							"value": "weird",
+							"hotkey": "w",
+							"label": "This example is weird",
+							"category": "Meta",
+							"updatedAt": "2020-09-16T10:41:17.018Z",
+							"createdAt": "2020-09-16T10:41:17.018Z",
+							"__v": 0
+						},
+						{
+							"parents": [],
+							"type": "zone",
+							"_id": "5f61ebcdd15130001ba9a202",
+							"value": "no-box",
+							"hotkey": "-",
+							"label": "No box",
+							"category": "Meta",
+							"updatedAt": "2020-09-16T10:41:17.018Z",
+							"createdAt": "2020-09-16T10:41:17.018Z",
+							"__v": 0
+						}
+					]
+				}
+			]
+		}
+	}
+]
