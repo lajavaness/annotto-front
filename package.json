@@ -59,7 +59,7 @@
 		"@xstyled/styled-components": "^1.17.1",
 		"antd": "^4.16.13",
 		"antd-dayjs-webpack-plugin": "^1.0.1",
-		"axios": "^0.19.2",
+		"axios": "^0.21.2",
 		"codemirror": "^5.58.1",
 		"dayjs": "^1.8.36",
 		"dompurify": "^2.2.7",
