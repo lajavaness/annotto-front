@@ -51,7 +51,7 @@
 		"react-app-rewired": "^2.1.6",
 		"react-scripts": "^3.4.1",
 		"react-test-renderer": "^16.13.1",
-		"semantic-release": "^17.1.1"
+		"semantic-release": "^19.0.3"
 	},
 	"dependencies": {
 		"@ant-design/icons": "^4.3.0",
