@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/lajavaness/annotto-front/compare/v1.1.0...v1.2.0) (2022-07-06)
+
+
+### Features
+
+* Allow semantic-release to trigger itself the docker push and release ([#16](https://github.com/lajavaness/annotto-front/issues/16)) ([fa5b5dc](https://github.com/lajavaness/annotto-front/commit/fa5b5dc8441847b60095371723321b5e84807968)), closes [#15](https://github.com/lajavaness/annotto-front/issues/15)
+
 # [1.1.0](https://github.com/lajavaness/annotto-front/compare/v1.0.6...v1.1.0) (2022-07-06)
 
 
