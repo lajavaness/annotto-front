@@ -1,4 +1,4 @@
-name: Docker build and push
+name: Semantic Release
 
 on:
   workflow_run:
