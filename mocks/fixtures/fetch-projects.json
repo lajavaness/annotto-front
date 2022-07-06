@@ -1,1371 +1,330 @@
 [
 	{
-		"defaultTags": [],
-		"active": true,
-		"admins": [],
-		"users": [],
-		"tasks": [
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ab4",
-				"value": "RC",
-				"hotkey": "1",
-				"label": "RC",
-				"category": "Niveau1",
-				"updatedAt": "2020-09-22T13:22:47.670Z",
-				"createdAt": "2020-09-22T13:22:47.670Z",
-				"__v": 0,
-				"children": {
-					"name": "Niveau2",
-					"values": [
-						{
-							"parents": ["5f69faa7420b84001bde5ab4"],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ab5",
-							"value": "RA01",
-							"hotkey": "a",
-							"label": "01 Acc",
-							"category": "Niveau2",
-							"updatedAt": "2020-09-22T13:22:47.670Z",
-							"createdAt": "2020-09-22T13:22:47.670Z",
-							"__v": 0
-						},
-						{
-							"parents": ["5f69faa7420b84001bde5ab4"],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ab6",
-							"value": "RA03",
-							"hotkey": "z",
-							"label": "03 Cpt",
-							"category": "Niveau2",
-							"updatedAt": "2020-09-22T13:22:47.671Z",
-							"createdAt": "2020-09-22T13:22:47.671Z",
-							"__v": 0
-						},
-						{
-							"parents": ["5f69faa7420b84001bde5ab4"],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ab7",
-							"value": "RA04",
-							"hotkey": "e",
-							"label": "04 Frn",
-							"category": "Niveau2",
-							"updatedAt": "2020-09-22T13:22:47.671Z",
-							"createdAt": "2020-09-22T13:22:47.671Z",
-							"__v": 0
-						},
-						{
-							"parents": ["5f69faa7420b84001bde5ab4"],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ab8",
-							"value": "RA05",
-							"hotkey": "r",
-							"label": "05 Dep",
-							"category": "Niveau2",
-							"updatedAt": "2020-09-22T13:22:47.671Z",
-							"createdAt": "2020-09-22T13:22:47.671Z",
-							"__v": 0
-						},
-						{
-							"parents": ["5f69faa7420b84001bde5ab4"],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ab9",
-							"value": "RA06",
-							"hotkey": "t",
-							"label": "06 Itv",
-							"category": "Niveau2",
-							"updatedAt": "2020-09-22T13:22:47.671Z",
-							"createdAt": "2020-09-22T13:22:47.671Z",
-							"__v": 0
-						},
-						{
-							"parents": ["5f69faa7420b84001bde5ab4"],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5aba",
-							"value": "RA07",
-							"hotkey": "y",
-							"label": "07 Lky",
-							"category": "Niveau2",
-							"updatedAt": "2020-09-22T13:22:47.672Z",
-							"createdAt": "2020-09-22T13:22:47.672Z",
-							"__v": 0
-						},
-						{
-							"parents": ["5f69faa7420b84001bde5ab4"],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5abb",
-							"value": "RA08",
-							"hotkey": "u",
-							"label": "08 Qual",
-							"category": "Niveau2",
-							"updatedAt": "2020-09-22T13:22:47.672Z",
-							"createdAt": "2020-09-22T13:22:47.672Z",
-							"__v": 0
-						},
-						{
-							"parents": ["5f69faa7420b84001bde5ab4"],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5abc",
-							"value": "RA10",
-							"hotkey": "i",
-							"label": "10 Rac",
-							"category": "Niveau2",
-							"updatedAt": "2020-09-22T13:22:47.672Z",
-							"createdAt": "2020-09-22T13:22:47.672Z",
-							"__v": 0
-						},
-						{
-							"parents": ["5f69faa7420b84001bde5ab4"],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5abd",
-							"value": "RA11",
-							"hotkey": "o",
-							"label": "11 Rlv",
-							"category": "Niveau2",
-							"updatedAt": "2020-09-22T13:22:47.672Z",
-							"createdAt": "2020-09-22T13:22:47.672Z",
-							"__v": 0
-						}
-					]
-				}
-			},
-			{
-				"parents": ["5f69faa7420b84001bde5ab4"],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ab5",
-				"value": "RA01",
-				"hotkey": "a",
-				"label": "01 Acc",
-				"category": "Niveau2",
-				"updatedAt": "2020-09-22T13:22:47.670Z",
-				"createdAt": "2020-09-22T13:22:47.670Z",
-				"__v": 0
-			},
-			{
-				"parents": ["5f69faa7420b84001bde5ab4"],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ab6",
-				"value": "RA03",
-				"hotkey": "z",
-				"label": "03 Cpt",
-				"category": "Niveau2",
-				"updatedAt": "2020-09-22T13:22:47.671Z",
-				"createdAt": "2020-09-22T13:22:47.671Z",
-				"__v": 0
-			},
-			{
-				"parents": ["5f69faa7420b84001bde5ab4"],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ab7",
-				"value": "RA04",
-				"hotkey": "e",
-				"label": "04 Frn",
-				"category": "Niveau2",
-				"updatedAt": "2020-09-22T13:22:47.671Z",
-				"createdAt": "2020-09-22T13:22:47.671Z",
-				"__v": 0
-			},
-			{
-				"parents": ["5f69faa7420b84001bde5ab4"],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ab8",
-				"value": "RA05",
-				"hotkey": "r",
-				"label": "05 Dep",
-				"category": "Niveau2",
-				"updatedAt": "2020-09-22T13:22:47.671Z",
-				"createdAt": "2020-09-22T13:22:47.671Z",
-				"__v": 0
-			},
-			{
-				"parents": ["5f69faa7420b84001bde5ab4"],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ab9",
-				"value": "RA06",
-				"hotkey": "t",
-				"label": "06 Itv",
-				"category": "Niveau2",
-				"updatedAt": "2020-09-22T13:22:47.671Z",
-				"createdAt": "2020-09-22T13:22:47.671Z",
-				"__v": 0
-			},
-			{
-				"parents": ["5f69faa7420b84001bde5ab4"],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5aba",
-				"value": "RA07",
-				"hotkey": "y",
-				"label": "07 Lky",
-				"category": "Niveau2",
-				"updatedAt": "2020-09-22T13:22:47.672Z",
-				"createdAt": "2020-09-22T13:22:47.672Z",
-				"__v": 0
-			},
-			{
-				"parents": ["5f69faa7420b84001bde5ab4"],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5abb",
-				"value": "RA08",
-				"hotkey": "u",
-				"label": "08 Qual",
-				"category": "Niveau2",
-				"updatedAt": "2020-09-22T13:22:47.672Z",
-				"createdAt": "2020-09-22T13:22:47.672Z",
-				"__v": 0
-			},
-			{
-				"parents": ["5f69faa7420b84001bde5ab4"],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5abc",
-				"value": "RA10",
-				"hotkey": "i",
-				"label": "10 Rac",
-				"category": "Niveau2",
-				"updatedAt": "2020-09-22T13:22:47.672Z",
-				"createdAt": "2020-09-22T13:22:47.672Z",
-				"__v": 0
-			},
-			{
-				"parents": ["5f69faa7420b84001bde5ab4"],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5abd",
-				"value": "RA11",
-				"hotkey": "o",
-				"label": "11 Rlv",
-				"category": "Niveau2",
-				"updatedAt": "2020-09-22T13:22:47.672Z",
-				"createdAt": "2020-09-22T13:22:47.672Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5abe",
-				"value": "COM",
-				"hotkey": "2",
-				"label": "COM",
-				"category": "Niveau1",
-				"updatedAt": "2020-09-22T13:22:47.672Z",
-				"createdAt": "2020-09-22T13:22:47.672Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5abf",
-				"value": "CORPO",
-				"hotkey": "3",
-				"label": "Corpo",
-				"category": "Niveau1",
-				"updatedAt": "2020-09-22T13:22:47.673Z",
-				"createdAt": "2020-09-22T13:22:47.673Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ac0",
-				"value": "AGGRESSIVE",
-				"hotkey": "4",
-				"label": "Aggr",
-				"category": "Niveau1",
-				"updatedAt": "2020-09-22T13:22:47.673Z",
-				"createdAt": "2020-09-22T13:22:47.673Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ac1",
-				"value": "PASREPONSE",
-				"hotkey": "5",
-				"label": "Pos/Norep",
-				"category": "Niveau1",
-				"updatedAt": "2020-09-22T13:22:47.673Z",
-				"createdAt": "2020-09-22T13:22:47.673Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ac2",
-				"value": "NEGNORESP",
-				"hotkey": "6",
-				"label": "Neg/Norep",
-				"category": "Niveau1",
-				"updatedAt": "2020-09-22T13:22:47.673Z",
-				"createdAt": "2020-09-22T13:22:47.673Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ac3",
-				"value": "AUTRE",
-				"hotkey": "8",
-				"label": "Autre",
-				"category": "Niveau1",
-				"updatedAt": "2020-09-22T13:22:47.673Z",
-				"createdAt": "2020-09-22T13:22:47.673Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f69faa7420b84001bde5ac4",
-				"value": "SUPPRIMER",
-				"hotkey": "9",
-				"label": "Suppr",
-				"category": "Niveau1",
-				"updatedAt": "2020-09-22T13:22:47.673Z",
-				"createdAt": "2020-09-22T13:22:47.673Z",
-				"__v": 0
-			}
+		"admins": [
+			"admin@test.com"
 		],
-		"highlights": [],
-		"_id": "5f69faa7420b84001bde5ad6",
-		"name": "DEMO: Text classification",
-		"type": "text",
-		"description": "demo-enedis",
-		"updatedAt": "2020-09-22T15:42:43.031Z",
-		"createdAt": "2020-09-22T13:22:47.697Z",
-		"__v": 0,
-		"itemCount": 30,
-		"stats": {
-			"Users": 0,
-			"Items": 31,
-			"Progress": 5,
-			"Velocity": 10,
-			"Remaining time": "2020-10-14T16:39:22.646Z",
-			"Remaining work": 1,
-			"Notes": 0,
-			"Update": "2020-10-14T16:39:22.646Z"
-		},
-		"spec": {
-			"tasks": [
-				{
-					"name": "Niveau1",
-					"values": [
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ab4",
-							"value": "RC",
-							"hotkey": "1",
-							"label": "RC",
-							"category": "Niveau1",
-							"updatedAt": "2020-09-22T13:22:47.670Z",
-							"createdAt": "2020-09-22T13:22:47.670Z",
-							"__v": 0,
-							"children": {
-								"name": "Niveau2",
-								"values": [
-									{
-										"parents": ["5f69faa7420b84001bde5ab4"],
-										"type": "classifications",
-										"_id": "5f69faa7420b84001bde5ab5",
-										"value": "RA01",
-										"hotkey": "a",
-										"label": "01 Acc",
-										"category": "Niveau2",
-										"updatedAt": "2020-09-22T13:22:47.670Z",
-										"createdAt": "2020-09-22T13:22:47.670Z",
-										"__v": 0
-									},
-									{
-										"parents": ["5f69faa7420b84001bde5ab4"],
-										"type": "classifications",
-										"_id": "5f69faa7420b84001bde5ab6",
-										"value": "RA03",
-										"hotkey": "z",
-										"label": "03 Cpt",
-										"category": "Niveau2",
-										"updatedAt": "2020-09-22T13:22:47.671Z",
-										"createdAt": "2020-09-22T13:22:47.671Z",
-										"__v": 0
-									},
-									{
-										"parents": ["5f69faa7420b84001bde5ab4"],
-										"type": "classifications",
-										"_id": "5f69faa7420b84001bde5ab7",
-										"value": "RA04",
-										"hotkey": "e",
-										"label": "04 Frn",
-										"category": "Niveau2",
-										"updatedAt": "2020-09-22T13:22:47.671Z",
-										"createdAt": "2020-09-22T13:22:47.671Z",
-										"__v": 0
-									},
-									{
-										"parents": ["5f69faa7420b84001bde5ab4"],
-										"type": "classifications",
-										"_id": "5f69faa7420b84001bde5ab8",
-										"value": "RA05",
-										"hotkey": "r",
-										"label": "05 Dep",
-										"category": "Niveau2",
-										"updatedAt": "2020-09-22T13:22:47.671Z",
-										"createdAt": "2020-09-22T13:22:47.671Z",
-										"__v": 0
-									},
-									{
-										"parents": ["5f69faa7420b84001bde5ab4"],
-										"type": "classifications",
-										"_id": "5f69faa7420b84001bde5ab9",
-										"value": "RA06",
-										"hotkey": "t",
-										"label": "06 Itv",
-										"category": "Niveau2",
-										"updatedAt": "2020-09-22T13:22:47.671Z",
-										"createdAt": "2020-09-22T13:22:47.671Z",
-										"__v": 0
-									},
-									{
-										"parents": ["5f69faa7420b84001bde5ab4"],
-										"type": "classifications",
-										"_id": "5f69faa7420b84001bde5aba",
-										"value": "RA07",
-										"hotkey": "y",
-										"label": "07 Lky",
-										"category": "Niveau2",
-										"updatedAt": "2020-09-22T13:22:47.672Z",
-										"createdAt": "2020-09-22T13:22:47.672Z",
-										"__v": 0
-									},
-									{
-										"parents": ["5f69faa7420b84001bde5ab4"],
-										"type": "classifications",
-										"_id": "5f69faa7420b84001bde5abb",
-										"value": "RA08",
-										"hotkey": "u",
-										"label": "08 Qual",
-										"category": "Niveau2",
-										"updatedAt": "2020-09-22T13:22:47.672Z",
-										"createdAt": "2020-09-22T13:22:47.672Z",
-										"__v": 0
-									},
-									{
-										"parents": ["5f69faa7420b84001bde5ab4"],
-										"type": "classifications",
-										"_id": "5f69faa7420b84001bde5abc",
-										"value": "RA10",
-										"hotkey": "i",
-										"label": "10 Rac",
-										"category": "Niveau2",
-										"updatedAt": "2020-09-22T13:22:47.672Z",
-										"createdAt": "2020-09-22T13:22:47.672Z",
-										"__v": 0
-									},
-									{
-										"parents": ["5f69faa7420b84001bde5ab4"],
-										"type": "classifications",
-										"_id": "5f69faa7420b84001bde5abd",
-										"value": "RA11",
-										"hotkey": "o",
-										"label": "11 Rlv",
-										"category": "Niveau2",
-										"updatedAt": "2020-09-22T13:22:47.672Z",
-										"createdAt": "2020-09-22T13:22:47.672Z",
-										"__v": 0
-									}
-								]
-							}
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5abe",
-							"value": "COM",
-							"hotkey": "2",
-							"label": "COM",
-							"category": "Niveau1",
-							"updatedAt": "2020-09-22T13:22:47.672Z",
-							"createdAt": "2020-09-22T13:22:47.672Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5abf",
-							"value": "CORPO",
-							"hotkey": "3",
-							"label": "Corpo",
-							"category": "Niveau1",
-							"updatedAt": "2020-09-22T13:22:47.673Z",
-							"createdAt": "2020-09-22T13:22:47.673Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ac0",
-							"value": "AGGRESSIVE",
-							"hotkey": "4",
-							"label": "Aggr",
-							"category": "Niveau1",
-							"updatedAt": "2020-09-22T13:22:47.673Z",
-							"createdAt": "2020-09-22T13:22:47.673Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ac1",
-							"value": "PASREPONSE",
-							"hotkey": "5",
-							"label": "Pos/Norep",
-							"category": "Niveau1",
-							"updatedAt": "2020-09-22T13:22:47.673Z",
-							"createdAt": "2020-09-22T13:22:47.673Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ac2",
-							"value": "NEGNORESP",
-							"hotkey": "6",
-							"label": "Neg/Norep",
-							"category": "Niveau1",
-							"updatedAt": "2020-09-22T13:22:47.673Z",
-							"createdAt": "2020-09-22T13:22:47.673Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ac3",
-							"value": "AUTRE",
-							"hotkey": "8",
-							"label": "Autre",
-							"category": "Niveau1",
-							"updatedAt": "2020-09-22T13:22:47.673Z",
-							"createdAt": "2020-09-22T13:22:47.673Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f69faa7420b84001bde5ac4",
-							"value": "SUPPRIMER",
-							"hotkey": "9",
-							"label": "Suppr",
-							"category": "Niveau1",
-							"updatedAt": "2020-09-22T13:22:47.673Z",
-							"createdAt": "2020-09-22T13:22:47.673Z",
-							"__v": 0
-						}
-					]
-				}
-			]
-		}
+		"users": [],
+		"dataScientists": [],
+		"itemCount": 0,
+		"commentCount": 0,
+		"deadline": "2025-07-03T10:04:28.992Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62bec6e158692c001c2bb941",
+		"name": "Annotation",
+		"client": "62bebec420a3a8001cde0ff3",
+		"updatedAt": "2022-07-01T10:05:21.489Z",
+		"status": "Ongoing",
+		"id": "62bec6e158692c001c2bb941"
 	},
 	{
-		"defaultTags": [],
-		"active": true,
-		"admins": [],
-		"users": [],
-		"tasks": [
-			{
-				"parents": [],
-				"type": "ner",
-				"_id": "5f61cec4d15130001ba607f6",
-				"value": "name",
-				"hotkey": "n",
-				"label": "Name",
-				"category": "Entities",
-				"updatedAt": "2020-09-16T08:37:24.251Z",
-				"createdAt": "2020-09-16T08:37:24.251Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "ner",
-				"_id": "5f61cec4d15130001ba607f7",
-				"value": "skill",
-				"hotkey": "c",
-				"label": "Skill",
-				"category": "Entities",
-				"updatedAt": "2020-09-16T08:37:24.251Z",
-				"createdAt": "2020-09-16T08:37:24.251Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "ner",
-				"_id": "5f61cec4d15130001ba607f8",
-				"value": "formation",
-				"hotkey": "f",
-				"label": "Formation",
-				"category": "Entities",
-				"updatedAt": "2020-09-16T08:37:24.251Z",
-				"createdAt": "2020-09-16T08:37:24.251Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "ner",
-				"_id": "5f61cec4d15130001ba607f9",
-				"value": "Exp",
-				"hotkey": "e",
-				"label": "Experience",
-				"category": "Entities",
-				"updatedAt": "2020-09-16T08:37:24.251Z",
-				"createdAt": "2020-09-16T08:37:24.251Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "ner",
-				"_id": "5f61cec4d15130001ba607fa",
-				"value": "ignore",
-				"hotkey": "i",
-				"label": "Tag 1",
-				"category": "My Classification",
-				"updatedAt": "2020-09-16T08:37:24.251Z",
-				"createdAt": "2020-09-16T08:37:24.251Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "ner",
-				"_id": "5f61cec4d15130001ba607fb",
-				"value": "not-sure",
-				"hotkey": "a",
-				"label": "Tag 2",
-				"category": "My Classification",
-				"updatedAt": "2020-09-16T08:37:24.252Z",
-				"createdAt": "2020-09-16T08:37:24.252Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "ner",
-				"_id": "5f61cec4d15130001ba607fc",
-				"value": "weird",
-				"hotkey": "w",
-				"label": "Tag 3",
-				"category": "My Classification",
-				"updatedAt": "2020-09-16T08:37:24.252Z",
-				"createdAt": "2020-09-16T08:37:24.252Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "ner",
-				"_id": "5f61cec4d15130001ba607fd",
-				"value": "no-box",
-				"hotkey": "-",
-				"label": "Tag 4",
-				"category": "My Classification",
-				"updatedAt": "2020-09-16T08:37:24.252Z",
-				"createdAt": "2020-09-16T08:37:24.252Z",
-				"__v": 0
-			}
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin@test.com"
 		],
-		"highlights": [],
-		"_id": "5f61cec4d15130001ba60806",
-		"emails": [],
-		"name": "DEMO: Ner cassification",
-		"type": "text",
-		"description": "Projet de demo",
-		"updatedAt": "2020-09-22T08:02:20.424Z",
-		"createdAt": "2020-09-16T08:37:24.263Z",
-		"__v": 1,
-		"itemCount": 5,
-		"stats": {
-			"Users": 4,
-			"Items": 1,
-			"Progress": 59,
-			"Velocity": 30,
-			"Remaining time": "2020-10-14T16:39:22.646Z",
-			"Remaining work": 1,
-			"Notes": 4,
-			"Update": "2020-10-14T16:39:22.646Z"
-		},
-		"spec": {
-			"ner": [
-				{
-					"name": "Entities",
-					"values": [
-						{
-							"parents": [],
-							"type": "ner",
-							"_id": "5f61cec4d15130001ba607f6",
-							"value": "name",
-							"hotkey": "n",
-							"label": "Name",
-							"category": "Entities",
-							"updatedAt": "2020-09-16T08:37:24.251Z",
-							"createdAt": "2020-09-16T08:37:24.251Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "ner",
-							"_id": "5f61cec4d15130001ba607f7",
-							"value": "skill",
-							"hotkey": "c",
-							"label": "Skill",
-							"category": "Entities",
-							"updatedAt": "2020-09-16T08:37:24.251Z",
-							"createdAt": "2020-09-16T08:37:24.251Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "ner",
-							"_id": "5f61cec4d15130001ba607f8",
-							"value": "formation",
-							"hotkey": "f",
-							"label": "Formation",
-							"category": "Entities",
-							"updatedAt": "2020-09-16T08:37:24.251Z",
-							"createdAt": "2020-09-16T08:37:24.251Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "ner",
-							"_id": "5f61cec4d15130001ba607f9",
-							"value": "Exp",
-							"hotkey": "e",
-							"label": "Experience",
-							"category": "Entities",
-							"updatedAt": "2020-09-16T08:37:24.251Z",
-							"createdAt": "2020-09-16T08:37:24.251Z",
-							"__v": 0
-						}
-					]
-				},
-				{
-					"name": "My Classification",
-					"values": [
-						{
-							"parents": [],
-							"type": "ner",
-							"_id": "5f61cec4d15130001ba607fa",
-							"value": "ignore",
-							"hotkey": "i",
-							"label": "Tag 1",
-							"category": "My Classification",
-							"updatedAt": "2020-09-16T08:37:24.251Z",
-							"createdAt": "2020-09-16T08:37:24.251Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "ner",
-							"_id": "5f61cec4d15130001ba607fb",
-							"value": "not-sure",
-							"hotkey": "a",
-							"label": "Tag 2",
-							"category": "My Classification",
-							"updatedAt": "2020-09-16T08:37:24.252Z",
-							"createdAt": "2020-09-16T08:37:24.252Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "ner",
-							"_id": "5f61cec4d15130001ba607fc",
-							"value": "weird",
-							"hotkey": "w",
-							"label": "Tag 3",
-							"category": "My Classification",
-							"updatedAt": "2020-09-16T08:37:24.252Z",
-							"createdAt": "2020-09-16T08:37:24.252Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "ner",
-							"_id": "5f61cec4d15130001ba607fd",
-							"value": "no-box",
-							"hotkey": "-",
-							"label": "Tag 4",
-							"category": "My Classification",
-							"updatedAt": "2020-09-16T08:37:24.252Z",
-							"createdAt": "2020-09-16T08:37:24.252Z",
-							"__v": 0
-						}
-					]
-				}
-			]
-		}
+		"users": [],
+		"dataScientists": [],
+		"itemCount": 1,
+		"commentCount": 0,
+		"deadline": "2023-03-19T19:37:55.097Z",
+		"progress": 100,
+		"velocity": 7043488,
+		"remainingWork": 0,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea842995e9001db8f8c7",
+		"name": "Annotations Trucs/MACHINS/Bidules",
+		"client": "62c3ea842995e9001db8f8d0",
+		"updatedAt": "2022-07-05T07:38:44.822Z",
+		"status": "Ongoing",
+		"id": "62c3ea842995e9001db8f8c7"
 	},
 	{
-		"defaultTags": [],
-		"active": true,
-		"admins": [],
-		"users": [],
-		"tasks": [
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df313",
-				"value": "pni",
-				"hotkey": "1",
-				"label": "PNI",
-				"category": "type",
-				"updatedAt": "2020-09-15T15:23:06.953Z",
-				"createdAt": "2020-09-15T15:23:06.953Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df314",
-				"value": "passeport",
-				"hotkey": "c",
-				"label": "Passporte",
-				"category": "type",
-				"updatedAt": "2020-09-15T15:23:06.954Z",
-				"createdAt": "2020-09-15T15:23:06.954Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df315",
-				"value": "kbis",
-				"hotkey": "3",
-				"label": "Kbis",
-				"category": "type",
-				"updatedAt": "2020-09-15T15:23:06.954Z",
-				"createdAt": "2020-09-15T15:23:06.954Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df316",
-				"value": "justif",
-				"hotkey": "4",
-				"label": "Justif",
-				"category": "type",
-				"updatedAt": "2020-09-15T15:23:06.954Z",
-				"createdAt": "2020-09-15T15:23:06.954Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df317",
-				"value": "avis",
-				"hotkey": "5",
-				"label": "Avis Impôt",
-				"category": "type",
-				"updatedAt": "2020-09-15T15:23:06.954Z",
-				"createdAt": "2020-09-15T15:23:06.954Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df318",
-				"value": "livret",
-				"hotkey": "6",
-				"label": "Livret Familial",
-				"category": "type",
-				"updatedAt": "2020-09-15T15:23:06.955Z",
-				"createdAt": "2020-09-15T15:23:06.955Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df319",
-				"value": "autre",
-				"hotkey": "7",
-				"label": "Autre",
-				"category": "type",
-				"updatedAt": "2020-09-15T15:23:06.957Z",
-				"createdAt": "2020-09-15T15:23:06.957Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df31a",
-				"value": "L",
-				"hotkey": "l",
-				"label": "Oui",
-				"category": "lisible",
-				"updatedAt": "2020-09-15T15:23:06.957Z",
-				"createdAt": "2020-09-15T15:23:06.957Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df31b",
-				"value": "N",
-				"hotkey": "n",
-				"label": "Non",
-				"category": "lisible",
-				"updatedAt": "2020-09-15T15:23:06.957Z",
-				"createdAt": "2020-09-15T15:23:06.957Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df31c",
-				"value": "_",
-				"hotkey": "_",
-				"label": "Autre",
-				"category": "lisible",
-				"updatedAt": "2020-09-15T15:23:06.958Z",
-				"createdAt": "2020-09-15T15:23:06.958Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df31d",
-				"value": "H",
-				"hotkey": "h",
-				"label": "Homme",
-				"category": "sexe",
-				"updatedAt": "2020-09-15T15:23:06.958Z",
-				"createdAt": "2020-09-15T15:23:06.958Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df31e",
-				"value": "F",
-				"hotkey": "f",
-				"label": "Femme",
-				"category": "sexe",
-				"updatedAt": "2020-09-15T15:23:06.958Z",
-				"createdAt": "2020-09-15T15:23:06.958Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "classifications",
-				"_id": "5f60dc5ad15130001b9df31f",
-				"value": "-",
-				"hotkey": "-",
-				"label": "Autre",
-				"category": "sexe",
-				"updatedAt": "2020-09-15T15:23:06.959Z",
-				"createdAt": "2020-09-15T15:23:06.959Z",
-				"__v": 0
-			}
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin-42@lajavaness.com"
 		],
-		"highlights": [],
-		"_id": "5f60dc5ad15130001b9df32d",
-		"emails": [],
-		"name": "DEMO: Image cassification",
-		"type": "image",
-		"description": "Project LCL",
-		"updatedAt": "2020-09-22T08:02:15.536Z",
-		"createdAt": "2020-09-15T15:23:06.981Z",
-		"__v": 1,
-		"itemCount": 6,
-		"spec": {
-			"tasks": [
-				{
-					"name": "type",
-					"values": [
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df313",
-							"value": "pni",
-							"hotkey": "1",
-							"label": "PNI",
-							"category": "type",
-							"updatedAt": "2020-09-15T15:23:06.953Z",
-							"createdAt": "2020-09-15T15:23:06.953Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df314",
-							"value": "passeport",
-							"hotkey": "c",
-							"label": "Passporte",
-							"category": "type",
-							"updatedAt": "2020-09-15T15:23:06.954Z",
-							"createdAt": "2020-09-15T15:23:06.954Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df315",
-							"value": "kbis",
-							"hotkey": "3",
-							"label": "Kbis",
-							"category": "type",
-							"updatedAt": "2020-09-15T15:23:06.954Z",
-							"createdAt": "2020-09-15T15:23:06.954Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df316",
-							"value": "justif",
-							"hotkey": "4",
-							"label": "Justif",
-							"category": "type",
-							"updatedAt": "2020-09-15T15:23:06.954Z",
-							"createdAt": "2020-09-15T15:23:06.954Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df317",
-							"value": "avis",
-							"hotkey": "5",
-							"label": "Avis Impôt",
-							"category": "type",
-							"updatedAt": "2020-09-15T15:23:06.954Z",
-							"createdAt": "2020-09-15T15:23:06.954Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df318",
-							"value": "livret",
-							"hotkey": "6",
-							"label": "Livret Familial",
-							"category": "type",
-							"updatedAt": "2020-09-15T15:23:06.955Z",
-							"createdAt": "2020-09-15T15:23:06.955Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df319",
-							"value": "autre",
-							"hotkey": "7",
-							"label": "Autre",
-							"category": "type",
-							"updatedAt": "2020-09-15T15:23:06.957Z",
-							"createdAt": "2020-09-15T15:23:06.957Z",
-							"__v": 0
-						}
-					]
-				},
-				{
-					"name": "lisible",
-					"values": [
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df31a",
-							"value": "L",
-							"hotkey": "l",
-							"label": "Oui",
-							"category": "lisible",
-							"updatedAt": "2020-09-15T15:23:06.957Z",
-							"createdAt": "2020-09-15T15:23:06.957Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df31b",
-							"value": "N",
-							"hotkey": "n",
-							"label": "Non",
-							"category": "lisible",
-							"updatedAt": "2020-09-15T15:23:06.957Z",
-							"createdAt": "2020-09-15T15:23:06.957Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df31c",
-							"value": "_",
-							"hotkey": "_",
-							"label": "Autre",
-							"category": "lisible",
-							"updatedAt": "2020-09-15T15:23:06.958Z",
-							"createdAt": "2020-09-15T15:23:06.958Z",
-							"__v": 0
-						}
-					]
-				},
-				{
-					"name": "sexe",
-					"values": [
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df31d",
-							"value": "H",
-							"hotkey": "h",
-							"label": "Homme",
-							"category": "sexe",
-							"updatedAt": "2020-09-15T15:23:06.958Z",
-							"createdAt": "2020-09-15T15:23:06.958Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df31e",
-							"value": "F",
-							"hotkey": "f",
-							"label": "Femme",
-							"category": "sexe",
-							"updatedAt": "2020-09-15T15:23:06.958Z",
-							"createdAt": "2020-09-15T15:23:06.958Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "classifications",
-							"_id": "5f60dc5ad15130001b9df31f",
-							"value": "-",
-							"hotkey": "-",
-							"label": "Autre",
-							"category": "sexe",
-							"updatedAt": "2020-09-15T15:23:06.959Z",
-							"createdAt": "2020-09-15T15:23:06.959Z",
-							"__v": 0
-						}
-					]
-				}
-			]
-		}
-	},
-	{
-		"defaultTags": [],
-		"active": true,
-		"admins": [],
-		"users": [],
-		"tasks": [
-			{
-				"parents": [],
-				"type": "zone",
-				"_id": "5f61ebcdd15130001ba9a1fb",
-				"value": "bbox_name",
-				"hotkey": "n",
-				"label": "Name",
-				"category": "bboxes",
-				"updatedAt": "2020-09-16T10:41:17.017Z",
-				"createdAt": "2020-09-16T10:41:17.017Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "zone",
-				"_id": "5f61ebcdd15130001ba9a1fc",
-				"value": "bbox_skill",
-				"hotkey": "c",
-				"label": "Skill",
-				"category": "bboxes",
-				"updatedAt": "2020-09-16T10:41:17.017Z",
-				"createdAt": "2020-09-16T10:41:17.017Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "zone",
-				"_id": "5f61ebcdd15130001ba9a1fd",
-				"value": "bbox_formation",
-				"hotkey": "f",
-				"label": "Formation",
-				"category": "bboxes",
-				"updatedAt": "2020-09-16T10:41:17.017Z",
-				"createdAt": "2020-09-16T10:41:17.017Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "zone",
-				"_id": "5f61ebcdd15130001ba9a1fe",
-				"value": "bbox_Exp",
-				"hotkey": "e",
-				"label": "Experience",
-				"category": "bboxes",
-				"updatedAt": "2020-09-16T10:41:17.018Z",
-				"createdAt": "2020-09-16T10:41:17.018Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "zone",
-				"_id": "5f61ebcdd15130001ba9a1ff",
-				"value": "ignore",
-				"hotkey": "i",
-				"label": "Ignore this example",
-				"category": "Meta",
-				"updatedAt": "2020-09-16T10:41:17.018Z",
-				"createdAt": "2020-09-16T10:41:17.018Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "zone",
-				"_id": "5f61ebcdd15130001ba9a200",
-				"value": "not-sure",
-				"hotkey": "a",
-				"label": "Not sure",
-				"category": "Meta",
-				"updatedAt": "2020-09-16T10:41:17.018Z",
-				"createdAt": "2020-09-16T10:41:17.018Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "zone",
-				"_id": "5f61ebcdd15130001ba9a201",
-				"value": "weird",
-				"hotkey": "w",
-				"label": "This example is weird",
-				"category": "Meta",
-				"updatedAt": "2020-09-16T10:41:17.018Z",
-				"createdAt": "2020-09-16T10:41:17.018Z",
-				"__v": 0
-			},
-			{
-				"parents": [],
-				"type": "zone",
-				"_id": "5f61ebcdd15130001ba9a202",
-				"value": "no-box",
-				"hotkey": "-",
-				"label": "No box",
-				"category": "Meta",
-				"updatedAt": "2020-09-16T10:41:17.018Z",
-				"createdAt": "2020-09-16T10:41:17.018Z",
-				"__v": 0
-			}
+		"users": [
+			"user-42@lajavaness.com",
+			"user@test.com"
 		],
-		"highlights": [],
-		"_id": "5f61ebcdd15130001ba9a20b",
-		"emails": [],
-		"name": "DEMO: CV - Extraction",
-		"type": "image",
-		"description": "Demo de projet",
-		"updatedAt": "2020-09-22T07:58:39.952Z",
-		"createdAt": "2020-09-16T10:41:17.041Z",
-		"__v": 1,
+		"dataScientists": [
+			"datascientist-42@lajavaness.com",
+			"data@test.com"
+		],
 		"itemCount": 3,
-		"spec": {
-			"zone": [
-				{
-					"name": "bboxes",
-					"values": [
-						{
-							"parents": [],
-							"type": "zone",
-							"_id": "5f61ebcdd15130001ba9a1fb",
-							"value": "bbox_name",
-							"hotkey": "n",
-							"label": "Name",
-							"category": "bboxes",
-							"updatedAt": "2020-09-16T10:41:17.017Z",
-							"createdAt": "2020-09-16T10:41:17.017Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "zone",
-							"_id": "5f61ebcdd15130001ba9a1fc",
-							"value": "bbox_skill",
-							"hotkey": "c",
-							"label": "Skill",
-							"category": "bboxes",
-							"updatedAt": "2020-09-16T10:41:17.017Z",
-							"createdAt": "2020-09-16T10:41:17.017Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "zone",
-							"_id": "5f61ebcdd15130001ba9a1fd",
-							"value": "bbox_formation",
-							"hotkey": "f",
-							"label": "Formation",
-							"category": "bboxes",
-							"updatedAt": "2020-09-16T10:41:17.017Z",
-							"createdAt": "2020-09-16T10:41:17.017Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "zone",
-							"_id": "5f61ebcdd15130001ba9a1fe",
-							"value": "bbox_Exp",
-							"hotkey": "e",
-							"label": "Experience",
-							"category": "bboxes",
-							"updatedAt": "2020-09-16T10:41:17.018Z",
-							"createdAt": "2020-09-16T10:41:17.018Z",
-							"__v": 0
-						}
-					]
-				},
-				{
-					"name": "Meta",
-					"values": [
-						{
-							"parents": [],
-							"type": "zone",
-							"_id": "5f61ebcdd15130001ba9a1ff",
-							"value": "ignore",
-							"hotkey": "i",
-							"label": "Ignore this example",
-							"category": "Meta",
-							"updatedAt": "2020-09-16T10:41:17.018Z",
-							"createdAt": "2020-09-16T10:41:17.018Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "zone",
-							"_id": "5f61ebcdd15130001ba9a200",
-							"value": "not-sure",
-							"hotkey": "a",
-							"label": "Not sure",
-							"category": "Meta",
-							"updatedAt": "2020-09-16T10:41:17.018Z",
-							"createdAt": "2020-09-16T10:41:17.018Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "zone",
-							"_id": "5f61ebcdd15130001ba9a201",
-							"value": "weird",
-							"hotkey": "w",
-							"label": "This example is weird",
-							"category": "Meta",
-							"updatedAt": "2020-09-16T10:41:17.018Z",
-							"createdAt": "2020-09-16T10:41:17.018Z",
-							"__v": 0
-						},
-						{
-							"parents": [],
-							"type": "zone",
-							"_id": "5f61ebcdd15130001ba9a202",
-							"value": "no-box",
-							"hotkey": "-",
-							"label": "No box",
-							"category": "Meta",
-							"updatedAt": "2020-09-16T10:41:17.018Z",
-							"createdAt": "2020-09-16T10:41:17.018Z",
-							"__v": 0
-						}
-					]
-				}
-			]
-		}
+		"commentCount": 0,
+		"deadline": "2025-11-30T13:57:20.355Z",
+		"progress": 33,
+		"velocity": 13,
+		"remainingWork": 1,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea852995e9001db8f942",
+		"name": "DEMO Zone and Text : CV - Extraction",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:45.075Z",
+		"status": "Ongoing",
+		"id": "62c3ea852995e9001db8f942"
+	},
+	{
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin-42@lajavaness.com"
+		],
+		"users": [
+			"user-42@lajavaness.com"
+		],
+		"dataScientists": [
+			"datascientist-42@lajavaness.com"
+		],
+		"itemCount": 5,
+		"commentCount": 0,
+		"deadline": "2025-08-30T13:57:20.355Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea822995e9001db8d1ee",
+		"name": "DEMO: Classification public image",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:42.456Z",
+		"status": "Ongoing",
+		"id": "62c3ea822995e9001db8d1ee"
+	},
+	{
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin@test.com"
+		],
+		"users": [
+			"user@test.com"
+		],
+		"dataScientists": [
+			"data@test.com"
+		],
+		"itemCount": 5,
+		"commentCount": 0,
+		"deadline": "2025-03-02T13:57:20.355Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea822995e9001db8d211",
+		"name": "DEMO: Classification text 1",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:42.520Z",
+		"status": "Ongoing",
+		"id": "62c3ea822995e9001db8d211"
+	},
+	{
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin@test.com"
+		],
+		"users": [
+			"user@test.com"
+		],
+		"dataScientists": [
+			"data@test.com"
+		],
+		"itemCount": 3,
+		"commentCount": 0,
+		"deadline": "2023-05-30T13:57:20.355Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea822995e9001db8d241",
+		"name": "DEMO: Classification text 2 - test annotators",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:42.610Z",
+		"status": "Ongoing",
+		"id": "62c3ea822995e9001db8d241"
+	},
+	{
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin@test.com"
+		],
+		"users": [
+			"user@test.com"
+		],
+		"dataScientists": [
+			"data@test.com"
+		],
+		"itemCount": 3,
+		"commentCount": 0,
+		"deadline": "2023-04-30T13:57:20.355Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea822995e9001db8d269",
+		"name": "DEMO: Classification text 3 - emails",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:42.710Z",
+		"status": "Ongoing",
+		"id": "62c3ea822995e9001db8d269"
+	},
+	{
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin@test.com"
+		],
+		"users": [
+			"user@test.com"
+		],
+		"dataScientists": [
+			"data@test.com"
+		],
+		"itemCount": 9484,
+		"commentCount": 0,
+		"deadline": "2023-03-02T13:57:20.355Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea822995e9001db8d2dd",
+		"name": "DEMO: Classification text 4 - 100k items",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:42.898Z",
+		"status": "Ongoing",
+		"id": "62c3ea822995e9001db8d2dd"
+	},
+	{
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin@test.com"
+		],
+		"users": [
+			"user@test.com"
+		],
+		"dataScientists": [
+			"data@test.com"
+		],
+		"itemCount": 4,
+		"commentCount": 0,
+		"deadline": "2023-04-30T13:57:20.355Z",
+		"progress": 75,
+		"velocity": 102,
+		"remainingWork": 1,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea842995e9001db8f85a",
+		"name": "DEMO: NER and Classification text",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:44.614Z",
+		"status": "Ongoing",
+		"id": "62c3ea842995e9001db8f85a"
+	},
+	{
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin@test.com"
+		],
+		"users": [
+			"user@test.com"
+		],
+		"dataScientists": [
+			"data@test.com"
+		],
+		"itemCount": 3,
+		"commentCount": 0,
+		"deadline": "2023-11-30T13:57:20.355Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea842995e9001db8f8ac",
+		"name": "DEMO: NER with relations",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:44.749Z",
+		"status": "Ongoing",
+		"id": "62c3ea842995e9001db8f8ac"
+	},
+	{
+		"admins": [
+			"userProfile-42@lajavaness.com",
+			"admin@test.com"
+		],
+		"users": [
+			"user@test.com"
+		],
+		"dataScientists": [
+			"data@test.com"
+		],
+		"itemCount": 3,
+		"commentCount": 0,
+		"deadline": "2023-04-30T13:57:20.355Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea842995e9001db8f91a",
+		"name": "DEMO: Zone and Classification image2",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:44.999Z",
+		"status": "Ongoing",
+		"id": "62c3ea842995e9001db8f91a"
+	},
+	{
+		"admins": [
+			"userProfile-42@lajavaness.com"
+		],
+		"users": [],
+		"dataScientists": [],
+		"itemCount": 1,
+		"commentCount": 0,
+		"deadline": "2025-07-31T07:35:52.373Z",
+		"progress": 100,
+		"velocity": 26699,
+		"remainingWork": 0,
+		"lastAnnotationTime": null,
+		"_id": "62c3ea842995e9001db8f8e4",
+		"name": "Generic Document Segmentation",
+		"client": "62c3ea822995e9001db8d209",
+		"updatedAt": "2022-07-05T07:38:44.901Z",
+		"status": "Ongoing",
+		"id": "62c3ea842995e9001db8f8e4"
+	},
+	{
+		"admins": [
+			"admin@test.com"
+		],
+		"users": [],
+		"dataScientists": [],
+		"itemCount": 0,
+		"commentCount": 0,
+		"deadline": "2023-07-06T09:28:23.154Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62bebec420a3a8001cde0ff0",
+		"name": "annot poste",
+		"client": "62bebec420a3a8001cde0ff3",
+		"updatedAt": "2022-07-01T09:30:44.551Z",
+		"status": "Ongoing",
+		"id": "62bebec420a3a8001cde0ff0"
+	},
+	{
+		"admins": [
+			"admin@test.com"
+		],
+		"users": [],
+		"dataScientists": [],
+		"itemCount": 3,
+		"commentCount": 0,
+		"deadline": "2023-10-12T09:45:04.810Z",
+		"progress": null,
+		"velocity": null,
+		"remainingWork": null,
+		"lastAnnotationTime": null,
+		"_id": "62bec23a58692c001c2bb939",
+		"name": "annotation poste",
+		"client": "62bebec420a3a8001cde0ff3",
+		"updatedAt": "2022-07-01T09:45:30.742Z",
+		"status": "Ongoing",
+		"id": "62bec23a58692c001c2bb939"
 	}
 ]

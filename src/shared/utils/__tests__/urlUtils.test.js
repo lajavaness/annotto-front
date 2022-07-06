@@ -16,8 +16,8 @@ describe('urlUtils', () => {
 		})
 
 		it('returns url', () => {
-			const url = 'http://localhost:5001/auth/login'
-			expect(resolveApiUrl('REACT_APP_LOGIN_ROUTE')).toBe(url)
+			const url = `${process.env.REACT_APP_BASE_URL}${process.env.REACT_APP_API_ROUTE}${process.env.REACT_APP_PROJECTS_ROUTE}`
+			expect(resolveApiUrl('REACT_APP_PROJECTS_ROUTE')).toBe(url)
 		})
 
 		it('returns dynamic url', () => {
