@@ -143,30 +143,54 @@ Ensure the `.git/hooks/pre-commit`` file is present in your repository.
 
 The ``yarn prettier`` command used by pre-commit hooks automatically fixes style issues and stages any unstaged content into your commit, to make sure those style changes are staged. This prevents the use of partial commits. If you want to commit only part of your changed files, you can ``stash`` unstaged code before committing. This is the preferred way of doing things at La Javaness.
 
-
 ## Technical overview
+
 ### Login with keycloak
 
+- Username : `admin`
+- Password : `test`
+
 #### Admin panel setup
+
 Visit ``localhost:8080`` in development to access keycloak admin panel.
+
+- Username : `admin`
+- Password : `admin`
 
 To manage session time, you might consider changing the following values:
 - `SSO Session Idle` (in Realm Settings/Token): default refresh token lifespan
 - `SSO Session Max` in (Client/clientName/Settings - advanced settings): session max time
-- `Access Token Lifespan`: lifespan of `token` used for request authentification.
+- `Access Token Lifespan`: lifespan of `token` used for request authentication.
 
-For security purpose, it is adviced to keep `Access Token Lifespan` short and rotate it with the `refreshToken`.
+For security purpose, it is advised to keep `Access Token Lifespan` short and rotate it with the `refreshToken`.
 `refreshToken` value is bound to the lowest of the two values `SSO Session Idle` and `SSO Session Max`. [Check stackoverflow for further details](https://stackoverflow.com/a/67624190 )
 
 You should note that user is logged out when `refreshToken` is outdated.
 
 To allow session to be persisted, you have to enable ``remember me`` in `Realm Settings/Login`
+
 #### Config files
-Keycloak is initated thanks to `keycloakConfig` object. Default `clientId` and `realm` are `annotto` . You can update these values in a `.env` file.
+
+Keycloak is initiated thanks to `keycloakConfig` object. Default `clientId` and `realm` are `annotto` . You can update these values in a `.env` file.
 
 Please note that the param `url` has to be the exact same one as the one setup on the backend.
 
-For more config options, please check [keycload.js adapter documentation]([https://www.keycloak.org/docs/latest/securing_apps/index.html#_javascript_adapter](https://www.keycloak.org/docs/latest/securing_apps/index.html#_javascript_adapter)).
+For more config options, please check [keycloak.js adapter documentation]([https://www.keycloak.org/docs/latest/securing_apps/index.html#_javascript_adapter](https://www.keycloak.org/docs/latest/securing_apps/index.html#_javascript_adapter)).
 
+### API and Keycloak urls
 
+> **Important**
 
+By default, our [Docker image](https://hub.docker.com/r/ljnrepo/annotto-front) is built without setting the url of the API and Keycloak.  
+That means if you want to use them on your own server, API must be accessible at `<window.location.origin>/api` and Keycloak at `<window.location.origin>/auth`.
+
+If you plan to deploy those services elsewhere, you'll have to set the base urls and optional routes in your environment variables and rebuild the front with them.
+
+#### Environment Variables
+
+| Variable                 | Description                                                               |
+|--------------------------|---------------------------------------------------------------------------|
+| REACT_APP_BASE_URL       | Origin from where the API is accessible (E.g. "http://localhost:5001")    |
+| REACT_APP_API_ROUTE      | Optional route from the origin where the API is installed (E.g. "/api")   |
+| REACT_APP_KEYCLOAK_URL   | Origin from where Keycloak is accessible (E.g. "http://localhost:8080")   |
+| REACT_APP_KEYCLOAK_ROUTE | Optional route from the origin where Keycloak is installed (E.g. "/auth") |

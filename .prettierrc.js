@@ -11,7 +11,7 @@ module.exports = {
 		{
 			files: './**/*.{js,ts,jsx,tsx}',
 			options: {
-				parser: 'babylon',
+				parser: 'babel',
 			},
 		},
 		{
