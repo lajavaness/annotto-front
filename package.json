@@ -1,7 +1,7 @@
 {
 	"name": "annotto-front",
 	"description": "Front for Annotto Web Tool",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"author": "La Javaness <dev@lajavaness.com>",
 	"repository": "git@github.com:lajavaness/annotto-front.git",
 	"license": "apache-2.0",
