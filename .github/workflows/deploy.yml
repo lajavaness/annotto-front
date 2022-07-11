@@ -21,7 +21,8 @@ jobs:
         run: npm install -g yarn
       - name: Install dependencies
         run: yarn install
-      - run: yarn test:ci
+      - name: Run unit tests
+        run: yarn test:ci
 
   semantic-release:
     runs-on: ubuntu-latest
